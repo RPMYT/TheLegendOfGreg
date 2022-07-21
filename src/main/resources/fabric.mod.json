@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "LoG",
+  "version": "${version}",
+  "name": "The Legend of Greg",
+  "description": "TODO: this",
+  "authors": [
+    "PrismaticYT"
+  ],
+  "contact": {
+    "website": "https://log.spectraspatial.com"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/LoG/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.spectraspatial.log.log.client.LogClient"
+    ],
+    "main": [
+      "com.spectraspatial.log.LegendOfGreg"
+    ]
+  },
+  "mixins": [
+    "LoG.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
